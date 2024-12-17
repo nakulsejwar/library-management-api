@@ -137,9 +137,9 @@ Use Postman or curl to test the endpoints. Example:
 - Example report content:
   ```json
   {
-      "total_authors": 5,
-      "total_books": 12,
-      "total_borrowed_books": 7,
+      "total_authors": 1,
+      "total_books": 1,
+      "total_borrowed_books": 55,
       "generated_at": "2024-12-17 12:00:00"
   }
   ```
