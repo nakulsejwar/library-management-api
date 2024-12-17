@@ -1,0 +1,11 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h2>Authors</h2>
+    <div id="authors-list"></div>
+    <form id="add-author-form">
+        <input type="text" id="author-name" placeholder="Author Name" required>
+        <textarea id="author-bio" placeholder="Author Bio"></textarea>
+        <button type="submit">Add Author</button>
+    </form>
+{% endblock %}
