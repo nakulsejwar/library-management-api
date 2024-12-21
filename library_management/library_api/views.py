@@ -61,5 +61,5 @@ class ReportViewSet(viewsets.ViewSet):
 
     @action(detail=False, methods=['post'], url_path='')
     def create_report(self, request):
-        generate_report.delay()
+        generate_report()
         return Response({'status': 'Report generation started'})
